@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Somtech IT Hub - Online Cyber Services</title>
+  <!-- External CSS & JS -->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- HEADER SECTION -->
+  <header>
+    <h1>Somtech IT Hub</h1>
+    <p>Your One-Stop Digital Solution</p>
+    <hr>
+  </header>
+
+   <!-- MAIN SECTION -->
+  <main>
+    <!-- About, Price List, Media, Form  -->
+    <section>
+      <h2>About Our Services</h2>
+      <p>Somtech IT Hub provides fast, reliable, and affordable online cyber services to clients both locally and remotely.</p>
+    </section>
+
+    <section>
+      <h2>Service Price List</h2>
+      <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+          <tr><th>Service</th><th>Price (KES)</th><th>Estimated Time</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>KRA PIN Registration</td><td>200</td><td>10 minutes</td></tr>
+          <tr><td>NTSA Services</td><td>300</td><td>15 minutes</td></tr>
+          <tr><td>Document Printing</td><td>20</td><td>5 minutes</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Media Showcase</h2>
+      <img src="Somtech-Banner.jpg" alt="Cyber Services" width="300">
+    </section>
+
+    <section>
+      <h2>Online Service Request Form</h2>
+      <form>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname">
+        <input type="submit" value="Submit Request">
+      </form>
+    </section>
+
+    <!-- LEARNING DEMOS -->
+    <section>
+      <h2>Learning Animations & JavaScript Functions</h2>
+      <p>This section demonstrates CSS3 animations, transitions, and JavaScript functions in action.</p>
+
+      <!-- Hover Button -->
+      <button class="animated-btn">Hover Over Me!</button>
+
+      <!-- Bouncing Circle -->
+      <div class="circle"></div>
+
+      <!-- Box Animation -->
+      <div id="animate-box" class="box"></div>
+      <button onclick="triggerBoxAnimation()">Animate Box</button>
+
+      <!-- Card Flip -->
+      <div class="card" onclick="flipCard(this)">
+        <div class="card-inner">
+          <div class="card-front">Front</div>
+          <div class="card-back">Back</div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <button onclick="toggleModal(true)">Open Modal</button>
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="toggleModal(false)">&times;</span>
+          <p>This modal slides in and fades out!</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER SECTION -->
+  <footer>
+    <hr>
+    <p>Contact us: 0700 000 000 | Email: info@somtechithub.com</p>
+    <p>
+      Follow us on social media:
+      <a href="https://www.facebook.com/somtechithub" target="_blank">Facebook</a> |
+      <a href="https://www.twitter.com/somtechithub" target="_blank">Twitter</a> |
+      <a href="https://www.instagram.com/somtechithub" target="_blank">Instagram</a>
+    </p>
+    <p>&copy; 2025 Somtech IT Hub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
